@@ -1,0 +1,5 @@
+NET "sclk" LOC = P24 | TNM_NET = sys_clk_pin | IOSTANDARD = "LVCMOS33";
+NET rst_n  LOC = P94 | IOSTANDARD = "LVCMOS33"; ## Reset Button
+########USB Uart SerialPin define#####################
+NET rx     LOC = P56 | IOSTANDARD = "LVCMOS33";		     ## Uart RXD:U4_TXD
+NET tx     LOC = P21 | IOSTANDARD = "LVCMOS33"; 		  ## Uart TXD:U4_RXD 
